@@ -24,7 +24,7 @@ jobs:
         run: npm run build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-          SPONSORKIT_GITHUB_LOGIN: dudykr
+          SPONSORKIT_GITHUB_LOGIN: kdy1
           SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
           SPONSORKIT_OPENCOLLECTIVE_SLUG: stc
 
