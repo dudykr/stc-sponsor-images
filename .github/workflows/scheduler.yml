@@ -32,6 +32,8 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v4
         with:
+          author_name: SWC Bot
+          author_email: bot@swc.rs
           message: "chore: update sponsors.svg"
           add: "sponsors.*"
         env:
